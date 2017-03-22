@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('updateBlog', true);
     },
     update(blog) {
-      console.log(blog);
       var params = {
         author: this.get('author'),
         title: this.get('title'),
