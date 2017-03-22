@@ -15,8 +15,10 @@
     "test": "ember test"
   },
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
+    "ember-bootstrap": "^1.0.0-alpha.8",
     "ember-cli": "2.13.0-beta.1",
     "ember-cli-app-version": "^2.0.0",
     "ember-cli-babel": "^6.0.0-beta.3",
@@ -35,6 +37,7 @@
     "ember-resolver": "^3.0.0",
     "ember-source": "~2.13.0-beta.1",
     "ember-welcome-page": "^2.0.2",
+    "emberfire": "^2.0.6",
     "loader.js": "^4.2.3"
   },
   "engines": {

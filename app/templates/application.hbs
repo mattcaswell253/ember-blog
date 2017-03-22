@@ -12,14 +12,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">StarBlog</a>
+        {{#link-to 'index'}}StarBlog{{/link-to}}
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">About <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Link</a></li>
+          <li>{{#link-to 'about'}}About<span class="sr-only">(current)</span>{{/link-to}}</li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">

@@ -1,1 +1,9 @@
-{{outlet}}
+<h1> Welcome to StarBlog</h1>
+
+<p>Strategies, build orders, race discussions and anything else about StarCraft 2.</p>
+
+<ul>
+  {{#each model as |blog|}}
+    {{blog-tile blog=blog}}
+  {{/each}}
+</ul>
