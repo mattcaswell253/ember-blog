@@ -1,4 +1,11 @@
 <h2>{{#link-to 'admin'}}Admin Site{{/link-to}}</h2>
+
+<div class="row">
+  {{update-blog blog=model update="update"}}
+
+  <!-- {{admin-blog-tile blog=model destroyBlog="destroyBlog"}} -->
+</div>
+
 <h1>{{model.title}}</h1>
 
 <div class="row">
