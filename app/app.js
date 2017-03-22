@@ -12,6 +12,7 @@ App = Ember.Application.extend({
   podModulePrefix: config.podModulePrefix,
   Resolver
 });
+// $('.dropdown-toggle').dropdown();
 
 loadInitializers(App, config.modulePrefix);
 

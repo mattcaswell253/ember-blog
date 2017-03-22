@@ -1,6 +1,6 @@
 <div class="row">
-  {{#link-to 'blog' blog.id}}
-  <div class="col-md-8" id="blogs">
+  {{#link-to 'admin-blog' blog.id}}
+  <div class="col-md-12" id="admin-blogs">
     <div class="row">
       <h1 class="title">{{blog.title}}</h1>
       <img src={{blog.image}}>
@@ -10,6 +10,4 @@
     </div>
   </div>
   {{/link-to}}
-  <div class="col-md-4" id="archives">
-  </div>
 </div>

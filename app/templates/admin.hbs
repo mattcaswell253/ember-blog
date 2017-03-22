@@ -1,0 +1,7 @@
+{{new-blog saveBlog="saveBlog"}}
+
+<ul>
+  {{#each model as |blog|}}
+    {{admin-blog-tile blog=blog}}
+  {{/each}}
+</ul>
