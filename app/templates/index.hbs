@@ -1,9 +1,13 @@
+<div class="container main-page">
+
 <h1> Welcome to StarBlog</h1>
 
 <p>Strategies, build orders, race discussions and anything else about StarCraft 2.</p>
+<div class="row" id="all-blogs">
 
-<ul>
   {{#each model.blogs as |blog|}}
     {{blog-tile blog=blog}}
   {{/each}}
-</ul>
+
+</div>
+</div>

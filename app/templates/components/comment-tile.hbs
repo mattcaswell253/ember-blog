@@ -1,2 +1,10 @@
-<li>{{comment.userName}} | {{comment.date}}</li>
-<li>{{comment.body}}</li>
+
+<div class="row comment">
+  <div class="col-md-1 commenter-info">
+  <h5>{{comment.userName}}</h5>
+  <p>{{comment.date}}</p>
+  </div>
+  <div class="col-md-11 comment-body">
+    {{comment.body}}
+  </div>
+</div>

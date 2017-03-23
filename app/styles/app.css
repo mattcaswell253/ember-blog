@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Starcraft';
+  src: local('Starcraft'), url('Starcraft.otf');
+}
+
 img {
   width: 80%;
 }
@@ -9,4 +14,104 @@ img {
 #post {
   height: 20vh;
   width: 50vw;
+}
+
+.jumbotron {
+  text-align: center;
+  font-family: 'Starcraft';
+  font-variant-caps: small-caps;
+  vertical-align: middle;
+  margin-bottom: 0px;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/1c/eb/00/1ceb005b7c38b26c0790e3ed49753743.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+.author-date {
+  text-align: center;
+}
+
+
+.post-picture {
+  box-shadow: -10px 10px 10px;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.post-picture-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jumbotron:hover {
+}
+
+.main-page {
+  text-align: center;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 98px;
+  text-shadow: -8px 8px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Starcraft';
+}
+
+body {
+  padding-top: 20px;
+}
+.post-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  margin-top: 0px;
+}
+.second-post-container {
+  padding: 25px;
+}
+
+.floating-header {
+  /*nothing yet*/
+}
+
+.comment {
+  border: solid 3px rgba(0, 0, 0, 0.5);;
+}
+.comment-body{
+  padding-top: 15px;
+
+}
+
+#all-blogs {
+  text-align: center;
+}
+
+.commenter-info{
+  border-right: solid 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+body {
+  background-image: url("https://images4.alphacoders.com/174/174968.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#nav-bar {
+  background-image: url("http://wallpapercave.com/wp/5t5HqS0.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#blogs {
+  color: rgb(25, 158, 192);
+  text-shadow: 0px 0px 2px black;
+  font-size: 20px;
 }
