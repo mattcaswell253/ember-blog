@@ -103,7 +103,7 @@ body {
 }
 
 #nav-bar {
-  background-image: url("http://wallpapercave.com/wp/5t5HqS0.jpg");
+  background-image: url("http://wallpapercave.com/wp/9CozxtU.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,4 +114,22 @@ body {
   color: rgb(25, 158, 192);
   text-shadow: 0px 0px 2px black;
   font-size: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: rgb(25, 158, 192);
+    background-color: transparent;
+    font-size: 26px;
+    font-family: 'Starcraft';
+}
+
+.main-page, a {
+  color: rgb(25, 158, 192);
+}
+
+a:hover {
+  color: rgb(38, 142, 207);
+}
+
+#to-admin {
+  font-size: 1px;
 }
